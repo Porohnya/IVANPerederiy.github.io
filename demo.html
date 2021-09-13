@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<!— комментарий в HTML —>
+<!— в первой строке мы сообщаем браузеру,
+что это документ HTML5 —>
+
+<html lang="ru">
+
+<head>
+    <title>Название страницы</title>
+</head>
+
+<body>
+    <ol id="sait">
+        <li><a href="//www.example.com">(1)</a></li>
+        <li><a href="https://example.com">(2)</a></li>
+        <li><a href="ftp://example.com/perez">(3)</a></li>
+        <li><a href="ftp://IVANPerederiy.example.com/perez">(4)</a></li>
+        <li><a href="https://clashroyale.com/ru/blog/">(5)</a></li>
+        <li><a href="#sait">(6)</a></li>
+        <li><a href="https://example.com">(7)</a></li>
+        <li><a href="https://example.com" title="main">(8)</a></li>
+        <li><a href="https://example.com" title="fam">(8)</a></li>
+        <li><a> (9 ПАУЗА)</a></li>
+        <li><a href="">(10)</a></li>
+        <li><a href="https://example.com" rel="nofollow">(11)</a></li>
+        <li><a href="https://example.com" rel="no index">(12)</a></li>
+        <li><p> Check <a href="https://example.com">(13)</a></p></li>
+        <li><a href="https://example.com"> <img src="https://ru.depositphotos.com/55515835/stock-photo-putin-vladimir-vladimirovich.html" alt="MrPresident" />(14)</a></li>
+        <li> MAP<img src="https://www.restate.ru/infra/fotosalony/fotka_4.html" alt="Hello World" />(15) </li>
+        <li>
+            <map name="image-map">
+                <area alt="Music" href="https://example.com" coords="78,34,9,45,250,96" shape="poly" />(16)
+                <area alt="fam" href="https://example.com" coords="130,228,70" shape="circle" />
+            </map>
+        </li>
+        <li><a href="./main.html">(17)</a></li>
+        <li><a href="./about/main.html">(18)</a></li>
+        <li><a href="../contacts">(19)</a></li>
+        <li><a href="../../contacts">(20)</a></li>
+        <li><a href="/">(21)</a></li>
+        <li><a href="/main.html"></a></li>
+    </ol>
+    <form id="example" method="post" action="/">
+        <label> <input type="text" placeholder="Name" /><br /> </label>
+        <label><input type="email" placeholder="email" /><br /></label>
+        <label><input type="date" /> <br /> </label>
+        <label><input type="radio" name="pol" value="male" />Мужской </label>
+        <label><input type="radio" name="pol" value="female" />Женский</label>
+        <br />
+        <label>
+            Количество конечностей
+            <input type="radio" name="ar" value="1" />
+        </label>
+        <label><input type="radio" name="ar" value="2" /></label>
+        <label><input type="radio" name="ar" value="more" /></label>
+        <br />
+        <label>
+            Сверхспособность<br /><select name="arg[]" multiple="multiple">
+                <option value="god">Бессмертие</option>
+                <option value="wall">Прохождение сквозь стены</option>
+                <option value="fly">Левитация</option>
+            </select>
+        </label><br />
+        <label>Биография <textarea name="about"></textarea></label><br />
+        <label><input type="checkbox" />Cо списком ознакомлен</label><br />
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>
