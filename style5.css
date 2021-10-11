@@ -1,0 +1,22 @@
+form{
+    background-color: rgb(33, 253, 253);
+    padding: 70px;
+    text-align: left;
+    margin: auto;
+    display: table;
+    align:"center";
+    border-radius:40px;
+}
+#button1{
+ /* remove default behavior */
+ appearance:none;
+ -webkit-appearance:none;
+ /* usual styles */
+ padding:10px;
+ border:none;
+ background-color:#271db8;
+ color:#fff;
+ font-weight:600;
+ border-radius:5px;
+ width:100%;
+}
